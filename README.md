@@ -9,6 +9,12 @@
   <img src="https://img.shields.io/badge/LG-webOS-000000?logo=webos&logoColor=white&style=flat-square" alt="webOS">
 </p>
 
+> [!NOTE]
+> **This fork** of [webosbrew/youtube-webos](https://github.com/webosbrew/youtube-webos) installs side by side with the official YouTube app:
+> it uses the app id `com.pyxl-dev.youtube` instead of `youtube.leanback.v4`, and drops `dialAppName` and
+> `supportQueryRouting` so casting and voice assistants keep targeting the official app.
+> No need to uninstall the official app. Everything else follows upstream.
+
 <p align="center">
   YouTube app for webOS TV with ad blocking and other enhancements
 </p>

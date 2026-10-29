@@ -1,5 +1,5 @@
 {
-  "id": "youtube.leanback.v4",
+  "id": "com.pyxl-dev.youtube",
   "vendor": "webosbrew.org",
   "type": "web",
   "main": "index.html",
@@ -25,12 +25,10 @@
   "deeplinkingParams": "{\"contentTarget\":\"v=$CONTENTID\"}",
   "inAppSearchParams": "{\"target\":\"q=$SEARCH_KEYWORD\"}",
   "inAppVoiceIntent": "{\"target\":{\"intent\":\"$INTENT\",\"intentParam\":\"$INTENT_PARAM\",\"languageCode\":\"$LANG_CODE\"}}",
-  "supportQueryRouting": "{\"amazonAlexa\":true,\"googleAssistant\":true}",
   "enablePigScreenSaver": false,
   "trustLevel": "netcast",
   "privilegedJail": true,
   "supportQuickStart": true,
-  "dialAppName": "YouTube",
   "disableBackHistoryAPI": true,
   "supportGIP": true,
   "wolwowlan": true
